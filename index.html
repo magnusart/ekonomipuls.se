@@ -1,0 +1,296 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+
+<meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+<title>Ekonomipuls</title>
+<style type="text/css">
+html {
+	width: 100%;
+	height: auto;
+	margin: 0px;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+			
+	background-image: -webkit-gradient(
+	    linear,
+	    left bottom,
+	    left top,
+	    color-stop(0, rgb(137,137,137)),
+	    color-stop(1, rgb(158,158,158))
+	);
+	background-image: -moz-linear-gradient(
+	    center bottom,
+	    rgb(137,137,137) 0%,
+	    rgb(158,158,158) 100%
+	);
+}
+
+body {
+	width: 100%;
+	height: auto;
+	margin: 10px;	
+	font-family: sans-serif;
+	margin-top: 1em;
+	color: #000000;
+}
+
+.container {
+	margin: 0 auto;
+	width: 750px;
+
+	-moz-box-shadow: 0px 0px 18px #666;
+	-webkit-box-shadow: 0px 0px 18px #666;
+	box-shadow: 0px 0px 18px #666;
+}
+
+#header {
+	padding: 20px;
+	height: 162px;
+	border-top-left-radius: 6px 6px;
+	border-top-right-radius: 6px 6px;
+	background-image: -webkit-gradient(
+	    linear,
+	    left bottom,
+	    left top,
+	    color-stop(0, rgb(97,97,97)),
+	    color-stop(1, rgb(158,158,158))
+	);
+	background-image: -moz-linear-gradient(
+	    center bottom,
+	    rgb(97,97,97) 0%,
+	    rgb(158,158,158) 100%
+	);
+	border-top: 1px solid rgb(188,188,188);
+	border-bottom: 2px solid #999;
+}
+
+#menu {
+	padding: 20px;
+	height: 15px;
+	background-image: -webkit-gradient(
+	    linear,
+	    left bottom,
+	    left top,
+	    color-stop(0.5, rgb(53,53,53)),
+	    color-stop(1, rgb(61,61,61))
+	);
+	background-image: -moz-linear-gradient(
+	    center bottom,
+	    rgb(53,53,53) 50%,
+	    rgb(61,61,61) 100%
+	);
+	border-bottom: 2px solid white;
+	
+	z-index: 50;
+}
+
+#content {
+	padding: 20px;
+	border: 2px solid grey;
+	border-top: 0px;
+	height: auto;
+	z-index: 100;
+	
+	border-bottom-left-radius: 6px 6px;
+	border-bottom-right-radius: 6px 6px;
+	
+	background-color: whiteSmoke;
+	background-image: -webkit-gradient(
+	    linear,
+	    left bottom,
+	    left top,
+	    color-stop(0, rgb(219,219,219)),
+	    color-stop(0.5, rgb(219,219,219)),
+	    color-stop(0.9, rgb(255,255,255))
+	);
+	background-image: -moz-linear-gradient(
+	    center bottom,
+	    rgb(219,219,219) 0%,
+	    rgb(219,219,219) 50%,
+	    rgb(255,255,255) 90%
+	);
+	
+}
+
+#logo {
+	width: 174px;
+	float: left;
+}
+
+#heading_text {
+	width: 526px;
+	float: left;
+}
+
+.top_heading {
+	height: 162px;
+	margin-bottom: 30px;
+	overflow: hidden;
+}
+
+h1 {
+	width: 100%;
+	font-size: 3.8em;
+	color: #444;
+	margin: 0 auto;
+	text-shadow: 1px 1px #AAA, -1px -1px #777;
+	float: left;
+	margin-top: 26px;
+}
+
+h1.small {
+	font-size: 1.4em;
+	margin-top: -4px;
+	margin-left: 6px;
+}
+
+h1 a {
+	text-decoration: none;
+}
+
+h2 {
+	font-size: 1.5em;
+	color: #444;
+	text-shadow: 1px 1px #FFF, -1px -1px #888;
+}
+
+h3 {
+	color: #444;
+	text-shadow: 1px 1px #FFF, -1px -1px #888;
+}
+
+a {
+	color: #000000;
+}
+
+img {
+	border-style: none;
+} 
+.qr {
+	margin-top: 19px;
+	margin-left: 19px;
+	width: 313px; 
+	float: right;
+}
+
+.qr img {
+	
+	-moz-box-shadow: 0px 0px 18px #666;
+	-webkit-box-shadow: 0px 0px 18px #666;
+	box-shadow: 0px 0px 18px #666;
+}
+
+#qr_ekonomipuls h3 {
+	color: #730da6;
+	text-shadow: 1px 1px #ffd1ff, 1px 1px #666266;
+	text-align: center;
+}
+
+#qr_bankdroid h3 {
+	color: #077a7a;
+	text-shadow: 1px 1px #d1ffff, 1px 1px #485756;
+	text-align: center;
+}
+
+p.warning {
+	color: #700a0a;
+}
+
+pre {
+	padding: 15px;
+	background: #000000 none repeat scroll 0% 50%;
+	color: #ffffff;
+}
+
+hr {
+	border-style: none none solid;
+	border-color: -moz-use-text-color -moz-use-text-color #aaaaaa;
+	border-width: 0 0 1px;
+	width: 80%;
+}
+
+.footer {
+	text-align: center;
+	padding-top: 30px;
+	font-style: italic;
+}
+</style>
+</head>
+<body>
+		<div id="header" class="container">
+		<a href="http://github.com/magnusart/Ekonomipuls" ><img
+		alt="Fork me on GitHub"
+		src="http://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png"
+		style="border: 0pt none; position: absolute; top: 0pt; right: 0pt;" />
+	</a>
+	
+			<div id="logo" class="top_heading">
+				<img
+					style="border: 0px solid;  float: left;"
+					alt="Ekonomipuls Logo" src="images/ekonomipuls_logo.png" />
+			</div>
+			<div id="heading_text" class="top_heading">
+				<h1>Ekonomipuls</h1>
+				<h1 class="small">Ta pulsen på din ekonomi!</h1>	
+			</div>
+		</div>
+		<div id="menu" class="container">
+			
+		</div>
+		<div id="content" class="container">
+				<div class="qr" id="qr_ekonomipuls"><a href="https://github.com/downloads/magnusart/Ekonomipuls/Ekonomipuls-v0.1.Pre-Alpha-9.apk">
+					<img
+					alt="Scan to download Ekonomipuls"
+					src="https://chart.googleapis.com/chart?cht=qr&amp;chs=313x291&amp;chl=https://github.com/downloads/magnusart/Ekonomipuls/Ekonomipuls-v0.1.Pre-Alpha-9.apk" />
+				</a>
+				<h3>Scanna av för<br/>att hämta Ekonomipuls</h3>
+				</div>
+				
+			<h2>Översikt utan krångel</h2>
+			<p>Vill du slippa hålla reda på kvitton för att kunna få en översikt på din ekonomi?</p>
+			<p>Ekonomipuls samarbetar med applikationen BankDroid för att hämta in dina transaktioner från Banken automatiskt. Sedan kategoriseras dina transaktioner automatiskt. Inget krångel med att lägga in transaktioner för hand, allt sker automatiskt i bakgrunden och är redo när du vill få översikt.</p>
+			
+			<h3>Installation av Ekonomipuls</h3>
+			
+			<p class="warning"><img alt="Warning Alpha Software" src="images/warning_icon.png" style="float: left; margin-right: 6px; margin-top: 6px;"/><strong>Först en varning</strong>, Ekonomipuls är i Alpha-stadiet av utvecklingen.</p>
+			<p class="warning">Detta innebär att det saknas kritisk funktionalitet och mjukvaran kan innehålla allvarliga buggar.</p>
+			<p>Titta på <a href="https://github.com/magnusart/Ekonomipuls/issues?labels=Bug&sort=created&direction=desc&state=open&page=1">listan över aktuella buggar</a> för mer information.</p>
+			
+			<h3>Steg för steg instruktioner för att komma igång</h3>
+			<ol>	
+				<li>Börja med att tömma inställningarna eller avinstallera Ekonomipuls</li>
+				<li>Installera senaste BankDroid betan genom att skanna av den nedre koden till höger</li>
+				<li>Installera Ekonomipuls genom at skanna av koden uppe till höger</li>
+				<li>Starta BankDroid och lägg till en Bank</li>
+				<li>Starta Ekonomipuls, om det är första gången du kör Ekonomipuls så bör du direkt hamna i BankDroid för att godkänna ihopparningen av applikationerna</li>
+				<li>Om allt har gått väl så finns nu en notifiering längst ner som säger att det finns nya transaktioner att importera</li>
+				<li>Importera transaktioner, verifiera transkationerna du bör nu se ett pajdiagram</li>
+			</ol>
+			<div class="qr" id="qr_bankdroid"><a href="https://github.com/downloads/magnusart/Ekonomipuls/Ekonomipuls-v0.1.Pre-Alpha-9.apk">
+					<img
+					alt="Scan to download BankDroid"
+					src="https://chart.googleapis.com/chart?cht=qr&amp;chs=313x291&amp;chl=https://github.com/downloads/magnusart/Ekonomipuls/Bankdroid-Ekonomipuls-v0.1.Pre-Alpha-8.apk" />
+				</a>
+				<h3>Scanna av för<br/>att hämta BankDroid</h3>
+			</div>
+			<h3>Överkurs</h3>
+			<ol>	
+				<li>Gå in i BankDroid och välj ut ett par transaktioner som inte hamnar i rätt kategori</li>
+				<li>Skicka in dina förslag i <a href="https://spreadsheets.google.com/a/magnusart.com/spreadsheet/viewform?hl=sv&authkey=CIujpJUJ&formkey=dHdpNzlaaWVxWG1vOGZnV21pRnF5OVE6MQ#gid=0">onlineformuläret för nya filterregler.</a></li>
+				<li>Meddela Magnus på forumet att det finns nya regler</li>
+				<li>När du fått klartecken så tryck på menyknappen i Ekonomipuls och välj synkronisera filterregler</li>
+				<li>Nästa gång BankDroid importerar transaktioner så kommer dessa att hamna i rätt kategori</li>
+			</ol>
+			<h2>Changelog Ekonomipuls</h2>
+			<strong>Ekonomipuls-v0.1.Pre-Alpha-9.apk</strong>
+			<ul>	
+				<li>Det går nu att importera de filterregler som lagts till via formuläret</li>
+				<li>Endast konton som är kopplade till ett kreditkort eller kontokort importeras</li>
+				<li>Gamla transaktioner som inte har har ett globalt ID töms vid varje ny import. Detta är för att undvika dubletter. Eftersom att BankDroid inte har globala id:n ännu så innebär detta att varje import tömmer tidigare transaktioner ur Ekonomipuls i dagsläget</li>
+			</ul>
+		</div>
+</body>
+</html>
